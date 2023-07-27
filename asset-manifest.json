@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Maeztra_Front_Challenge/static/css/main.efad5905.css",
-    "main.js": "/Maeztra_Front_Challenge/static/js/main.12bf233a.js",
+    "main.css": "/Maeztra_Front_Challenge/static/css/main.70242856.css",
+    "main.js": "/Maeztra_Front_Challenge/static/js/main.ac6f8140.js",
     "static/media/Fullbanner.png": "/Maeztra_Front_Challenge/static/media/Fullbanner.382040b4f11ef302425f.png",
     "static/media/BannerInfoCard.png": "/Maeztra_Front_Challenge/static/media/BannerInfoCard.8970f1aa0f2083b81cbf.png",
     "static/media/image 4.png": "/Maeztra_Front_Challenge/static/media/image 4.50e86e47e98f7e90af6c.png",
@@ -22,11 +22,11 @@
     "static/media/linkedin.svg": "/Maeztra_Front_Challenge/static/media/linkedin.33e7a284c717e55e6992f6fac65edde8.svg",
     "static/media/facebook.svg": "/Maeztra_Front_Challenge/static/media/facebook.bed7d4f0aa0ceb0a54bc6f5ea4514b21.svg",
     "static/media/newsletter-mail-icon.svg": "/Maeztra_Front_Challenge/static/media/newsletter-mail-icon.48b73cd7626cd5e2fc209fd6660bd6b5.svg",
-    "main.efad5905.css.map": "/Maeztra_Front_Challenge/static/css/main.efad5905.css.map",
-    "main.12bf233a.js.map": "/Maeztra_Front_Challenge/static/js/main.12bf233a.js.map"
+    "main.70242856.css.map": "/Maeztra_Front_Challenge/static/css/main.70242856.css.map",
+    "main.ac6f8140.js.map": "/Maeztra_Front_Challenge/static/js/main.ac6f8140.js.map"
   },
   "entrypoints": [
-    "static/css/main.efad5905.css",
-    "static/js/main.12bf233a.js"
+    "static/css/main.70242856.css",
+    "static/js/main.ac6f8140.js"
   ]
 }
