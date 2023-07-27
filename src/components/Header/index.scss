@@ -35,8 +35,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px 0;
-    width: 100%;
+    padding: 24px 30px;
+    width: auto;
     height: 100%;
     z-index: 999;
     background-color: white;
@@ -47,6 +47,9 @@
     }
     @media screen and (max-width: 1450px) {
         max-width: 1357px;
+    }
+    .Logo{
+        margin-right: 25px;
     }
 }
 
@@ -133,7 +136,7 @@
 .UserButtons {
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    gap: 5px;
 
     button {
         width: 134px;

@@ -11,10 +11,22 @@
     align-items: center;
     justify-content: center;
 
-
+    
     @media screen and (min-width:769px) {
         img {
             width:248px
+        }
+    }
+    @media screen and (max-width:1200px) {
+        img {
+            width:188px;
+            height: auto;
+        }
+    }
+    @media screen and (max-width:465px) {
+        img {
+            width:248px;
+            height: auto;
         }
     }
 }

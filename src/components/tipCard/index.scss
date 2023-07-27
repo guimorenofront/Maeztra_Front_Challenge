@@ -49,4 +49,10 @@
             }
         }
     }
+    @media (max-width:1200px){
+        transform: scale(0.75);
+    }
+    @media (max-width:465px){
+        transform: scale(1);
+    }
 }

@@ -1,4 +1,6 @@
 .CardPDP {
+
+    
     width: 278px;
     margin: 0px;
     img{
@@ -76,10 +78,50 @@
         border: none;
         height: 35px;
     }
-
+    @media (max-width:1200px){
+        width: 11rem !important;
+        .ColorsGroup{
+            div{
+                width: 20px !important;
+                height: 20px !important;
+            }
+        }
+        .PDPName{
+            font-size: 14px !important;
+        }
+    }
     @media screen and (max-width:768px) {
         
         margin-left: 25px !important;
         width: auto;
+
+        width: 15rem !important;
+        .ColorsGroup{
+            div{
+                width: 27px !important;
+                height: 27px !important;
+            }
+        }
+        .PDPName{
+            font-size: 16px !important;
+        }
     }
+    @media screen and (max-width:365px) {
+        
+        margin-left: 25px !important;
+        width: auto;
+
+        width: 11.5rem !important;
+        .ColorsGroup{
+            div{
+                width: 20px !important;
+                height: 20px !important;
+            }
+        }
+        .PDPName{
+            font-size: 14px !important;
+        }
+    }
+
+    
 }

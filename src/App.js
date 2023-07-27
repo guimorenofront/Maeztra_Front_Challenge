@@ -140,12 +140,13 @@ function App() {
             {
               breakpoint: 465,
               settings: {
-                slidesToShow: 1.1,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: false,
                 dots: false
               }
             }
+            
           ]
         }}>
           <ProductCard img={Product1} Name="Faux Suede Mini Skirt" Desc={"A faux suede mini skirt featuring exposed button-front closures and panel seam construction."} Price="R$ 500,00" color1={"#DEAC71"} color2={"#D37164"} color3={"#6497D3"} color4={"#3C3B79"} />
