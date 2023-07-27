@@ -42,14 +42,14 @@ function App() {
       <HeaderMobile />
       <HeaderDesk/>
       <SliderComponent className={"FSliderM"}>
-        <img src={SliderImage} />
-        <img src={SliderImage} />
-        <img src={SliderImage} />
+        <img src={SliderImage} alt="image"/>
+        <img src={SliderImage} alt="image"/>
+        <img src={SliderImage} alt="image"/>
       </SliderComponent>
       <SliderComponent className={"FSliderD"}>
-        <img src={SliderImageDesk} />
-        <img src={SliderImageDesk} />
-        <img src={SliderImageDesk} />
+        <img src={SliderImageDesk} alt="image"/>
+        <img src={SliderImageDesk} alt="image"/>
+        <img src={SliderImageDesk} alt="image"/>
       </SliderComponent>
       <section style={{ maxWidth: '1920px', margin: '0 auto' }}>
         <TitleComp Title="Por que Comprar na Maeztra?" size={'16px'} />
@@ -74,19 +74,19 @@ function App() {
           ]
         }}>
           <TipCard Title="Produtos importados" subtitle="Produto de Alta Qualidade">
-            <img src={World} />
+            <img src={World} alt="image"/>
           </TipCard>
           <TipCard Title="Estoque no Brazil" subtitle="Produtos mais perto de você!">
-            <img src={Storage} />
+            <img src={Storage} alt="image"/>
           </TipCard>
           <TipCard Title="Trocas Garantidas" subtitle="Trocas em até 40 horas, veja as regras">
-            <img src={Box} />
+            <img src={Box} alt="image"/>
           </TipCard>
           <TipCard Title="Ganhe 5% off" subtitle="Pagando à vista no Cartão">
-            <img src={Discount} />
+            <img src={Discount} alt="image"/>
           </TipCard>
           <TipCard Title="Frete Grátis" subtitle="Em compras acima de R$ 499,00">
-            <img src={Shipping} />
+            <img src={Shipping} alt="image"/>
           </TipCard>
         </SliderComponent>
         <TitleComp Title="Marcas Parceiras" />
