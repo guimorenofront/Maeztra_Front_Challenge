@@ -1,0 +1,147 @@
+.Header{
+    width: 100vw;
+    &__Mobile{
+       display: flex;
+       flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 20px;
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: fit-content;
+            gap:15px;
+            img{
+                height: 11px;
+                width: auto;
+            }
+        }
+
+        @media screen  and (min-width: 769px){
+            display: none;
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .HeaderContainerDesktop, .Searchbar, .SubHeaderBar {
+        display: none;
+    }
+    
+}
+.HeaderContainerDesktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: white;
+    max-width: 1920px;
+    margin: 0 auto;
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+}
+
+.SubHeaderBar {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+
+    div {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #353535;
+        text-decoration: none;
+
+        &:first-child {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 7px;
+            font-weight: 700;
+            color: #FAA500;
+        }
+    }
+}
+
+.Searchbar {
+    width: 791px;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    * {
+        border: NONE;
+    }
+
+    input {
+        background: #EFEFEF;
+        border-radius: 10px;
+        height: 40px;
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+
+    button {
+        background: #FAA500;
+        border-radius: 8px;
+        width: 119px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+    }
+}
+
+.UserButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+    button {
+        width: 134px;
+        height: 46px;
+        border: none;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        &:hover {
+            border: 1px solid #FAA500;
+            border-radius: 8px;
+        }
+    }
+}
